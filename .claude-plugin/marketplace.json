@@ -10,7 +10,10 @@
   "plugins": [
     {
       "name": "jordan",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "enablement-ch/jordan"
+      },
       "description": "AI sales coach. Reviews your calls against SPICED, MEDDIC, and BANT - the three most-used qualification frameworks. Pulls transcripts directly from Fathom. Free and open source.",
       "version": "0.1.0",
       "author": {
