@@ -19,7 +19,24 @@ It's a Claude Code plugin. Installs in 60 seconds. Runs on your own Anthropic AP
 
 ---
 
-## Install (Claude Code or Claude desktop app)
+## Install
+
+Three paths depending on how you use Claude. **Pick one.**
+
+### Path 1 - Claude Cowork (recommended for sales reps)
+
+Cowork is the desktop app that includes the agentic mode most sales operators use. Available on Pro, Max, Team, and Enterprise plans.
+
+1. **Download `jordan.zip`** from the [latest release](https://github.com/enablement-ch/jordan/releases/latest).
+2. Open the **Claude desktop app** and switch to the **Cowork** tab.
+3. In the left sidebar click **Customize → Browse plugins**.
+4. Click **Upload custom plugin** and select the `jordan.zip` you just downloaded.
+5. Connect Fathom: Cowork → Settings → Connectors → **Add custom connector** → enter `https://mcp.fathom.ai/mcp` → authenticate.
+6. In any chat, type `/jordan:setup` and follow the onboarding.
+
+That's it. Plugins installed this way are saved locally to your machine and stay even after restarts.
+
+### Path 2 - Claude Code (developers, terminal users)
 
 Two commands in your terminal:
 
@@ -28,26 +45,28 @@ claude plugin marketplace add https://github.com/enablement-ch/jordan
 claude plugin install jordan
 ```
 
-Then **fully quit and restart** the Claude desktop app (Cmd+Q) - or run `/reload-plugins` if you're already in a session.
+Then fully quit and restart the Claude desktop app (Cmd+Q) - or run `/reload-plugins` if you're already in a session.
 
-Run setup once:
+Run setup:
 
 ```
 /jordan:setup
 ```
 
-That walks you through connecting Fathom (one-time) and picking your default framework. Done.
+The Fathom MCP loads automatically from the bundled `.mcp.json` - first run will trigger an OAuth flow in your browser.
 
-**Works in:** Claude Code terminal, Claude Code desktop app, Claude Cowork (same desktop runtime), and the VS Code / JetBrains extensions.
+**Works in:** Claude Code terminal, Claude Code desktop app, and the VS Code / JetBrains extensions.
 
-## Install (Claude.ai - browser, no terminal)
+### Path 3 - Claude.ai browser (Custom Skills)
 
-Claude.ai (browser) doesn't support Claude Code plugins, but it does support Custom Skills (Pro/Team/Enterprise plans). Each Jordan skill can be uploaded individually:
+Claude.ai (browser) doesn't support Claude Code plugins, but it does support Custom Skills on Pro, Team, and Enterprise plans. Each Jordan skill can be uploaded individually:
 
 1. **Connect Fathom** to Claude.ai: Settings → Integrations → search "Fathom" → Connect.
 2. **Download this repo** as a zip (green Code button → Download ZIP).
-3. **Upload each skill folder** (`skills/review/`, `skills/compare/`, `skills/review-last/`, `skills/setup/`) to your Claude.ai Custom Skills.
+3. In Claude.ai go to Settings → Custom Skills → Upload, and add each skill folder individually: `skills/review/`, `skills/compare/`, `skills/review-last/`, `skills/setup/`.
 4. Invoke as `/review`, `/compare`, etc. (no `jordan:` prefix in Claude.ai).
+
+Heads up: Claude.ai doesn't bundle the `.mcp.json` for you - the Fathom connector has to be set up via the Integrations panel separately, not through the skill.
 
 ---
 
