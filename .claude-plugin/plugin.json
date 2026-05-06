@@ -1,0 +1,12 @@
+{
+  "name": "jordan",
+  "description": "AI sales coach. Reviews your calls against SPICED, MEDDIC, and BANT - the three most-used qualification frameworks. Pulls transcripts directly from Fathom. Free and open source.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Lanny Heiz",
+    "email": "l.heiz@enablement.ch"
+  },
+  "homepage": "https://enablement.ch",
+  "repository": "https://github.com/enablement-ch/jordan",
+  "license": "MIT"
+}

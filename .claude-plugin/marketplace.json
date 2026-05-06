@@ -1,0 +1,23 @@
+{
+  "name": "jordan",
+  "owner": {
+    "name": "Lanny Heiz",
+    "email": "l.heiz@enablement.ch"
+  },
+  "metadata": {
+    "description": "AI sales coach. Reviews calls against SPICED, MEDDIC, and BANT. Free and open source."
+  },
+  "plugins": [
+    {
+      "name": "jordan",
+      "source": ".",
+      "description": "AI sales coach. Reviews your calls against SPICED, MEDDIC, and BANT - the three most-used qualification frameworks. Pulls transcripts directly from Fathom. Free and open source.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Lanny Heiz",
+        "email": "l.heiz@enablement.ch"
+      },
+      "keywords": ["sales", "call-review", "spiced", "meddic", "bant", "fathom", "coaching"]
+    }
+  ]
+}
