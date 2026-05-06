@@ -2,9 +2,9 @@
 
 **AI sales coach. Reviews your calls against SPICED, MEDDIC, and BANT. Free and open source.**
 
-You're paying $1,600 per seat per year for a tool that records your calls and gives you AI summaries.
+AI notetakers only give you transcripts and summaries. But not actual coaching. 
 
-Jordan reviews them - against the three most-used sales qualification frameworks - and tells you exactly what you missed. For free.
+Jordan fixes this. He reviews your calls against the three most-used sales qualification frameworks - and tells you exactly what you missed. For free.
 
 ---
 
