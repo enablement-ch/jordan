@@ -19,6 +19,16 @@ It's a Claude Code plugin. Installs in 60 seconds. Runs on your own Anthropic AP
 
 ---
 
+<p align="center">
+  <a href="https://github.com/enablement-ch/jordan/releases/latest/download/jordan.zip">
+    <img alt="Download jordan.zip" src="https://img.shields.io/badge/%E2%AC%87_Download-jordan.zip_(v0.1.0)-2563eb?style=for-the-badge&labelColor=0f172a">
+  </a>
+</p>
+
+<p align="center"><sub>Then upload to Claude desktop app → Cowork → Customize → Browse plugins → Upload custom plugin. Full install instructions below.</sub></p>
+
+---
+
 ## Install
 
 Three paths depending on how you use Claude. **Pick one.**
